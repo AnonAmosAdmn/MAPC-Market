@@ -71,16 +71,6 @@ export function Collection() {
           >
             <TabList>
               <Tab>Listings ({listingsInSelectedCollection.length || 0})</Tab>
-              <Tab>
-                All items{" "}
-                {supplyInfo
-                  ? `(${(
-                      supplyInfo.endTokenId -
-                      supplyInfo.startTokenId +
-                      1n
-                    ).toString()})`
-                  : ""}
-              </Tab>
               {/* Support for English Auctions coming soon */}
               {/* <Tab>Auctions ({allAuctions?.length || 0})</Tab> */}
             </TabList>

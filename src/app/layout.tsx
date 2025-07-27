@@ -5,7 +5,7 @@ import { AutoConnect } from "thirdweb/react";
 import { client } from "@/consts/client";
 
 export const metadata: Metadata = {
-	title: "Marketplace",
+	title: "MAPC Market",
 	description: "",
 };
 
