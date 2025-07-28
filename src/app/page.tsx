@@ -16,7 +16,7 @@ export default function Home() {
       <Box mt="24px" m="auto">
         
         <Image 
-          src={`/MAPC-logo.png`} 
+          src={`/mapc-logo.png`} 
           alt="MAPC Image"
           width={500}
           height={200}
