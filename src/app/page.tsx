@@ -14,13 +14,14 @@ export default function Home() {
   return (
     <Flex>
       <Box mt="24px" m="auto">
-        
-        <Image 
-          src={`/mapc-logo.png`} 
-          alt="MAPC Image"
-          width={500}
-          height={200}
-        />
+        <div style={{ display: 'flex', justifyContent: 'center' }}>
+          <Image 
+            src={`/mapc-logo.png`} 
+            alt="MAPC Image"
+            width={500}
+            height={200}
+          />
+        </div>
         <Flex direction="column" gap="4">
           <Heading mt="8" as="h1" size="2xl" textAlign="center">
             NFT Collections
@@ -41,7 +42,7 @@ export default function Home() {
                 href={`/collection/${item.chain.id.toString()}/${item.address}`}
               >
                 <Image 
-                  src={`/MAPC.gif`} 
+                  src={item.thumbnailUrl} 
                   alt="MAPC Image"
                   width={500}
                   height={300}
