@@ -28,13 +28,13 @@ export const SUPPORTED_TOKENS: SupportedTokens[] = [
       {
         tokenAddress: "0x53405e6Ed7FAd1B5A8Ae2d3d086C97b3B1F49393",
         symbol: "MAPC Coin",
-        icon: "/native-token-icons/monad.png",
+        icon: "/default-thumbnail.png",
       },
     ],
   },
 ];
 
 export const NATIVE_TOKEN_ICON_MAP: { [key in Chain["id"]]: string } = {
-  1: "/native-token-icons/monad.png",
-  [monadTestnet.id]: "/native-token-icons/monad.png",
+  1: "/monad.png",
+  [monadTestnet.id]: "/monad.png",
 };
