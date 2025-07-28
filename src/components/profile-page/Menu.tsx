@@ -49,7 +49,12 @@ export function ProfileMenu(props: Props) {
                 onClick={() => setSelectedCollection(item)}
               >
                 <Flex direction="row" gap="3">
-                  <Image src={item.thumbnailUrl ?? ""} w="40px" rounded="8x" />
+                  <Image 
+                    src={item.thumbnailUrl ?? ""} 
+                    w="40px" 
+                    rounded="8x"
+                    fallbackSrc="/default-thumbnail.png"
+                  />
                   <Box my="auto">
                     <Text>{item.title ?? "Unknown collection"}</Text>
                   </Box>
