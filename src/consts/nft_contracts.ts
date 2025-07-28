@@ -19,7 +19,23 @@ export const NFT_CONTRACTS: NftContract[] = [
     chain: monadTestnet,
     title: "Monad Ape Punks Club",
     thumbnailUrl:
-      "https://d391b93f5f62d9c15f67142e43841acc.ipfscdn.io/ipfs/QmNY6eNXJBMKSyjPG7ndpbf6FubtLSrkFzQhaMWG5SsiXD/0.gif",
+      "/MAPC.gif",
     type: "ERC721",
+  },
+  {
+    address: "0xDBb7b5AB71c162e41EEC9c9D7a6F9326530fCeD0",
+    chain: monadTestnet,
+    title: "MetaFoxes",
+    thumbnailUrl:
+      "/mf.jpg",
+    type: "ERC1155",
+  },
+  {
+    address: "0xdD7E7c7d8525F8C749BDD592656e9f970100d5Bd",
+    chain: monadTestnet,
+    title: "Monad Toads",
+    thumbnailUrl:
+      "/MT.gif",
+    type: "ERC1155",
   },
 ];
