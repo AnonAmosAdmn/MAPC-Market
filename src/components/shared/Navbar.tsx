@@ -17,9 +17,7 @@ import {
   useColorMode,
 } from "@chakra-ui/react";
 import { blo } from "blo";
-import { FaRegMoon } from "react-icons/fa";
 import { FiUser } from "react-icons/fi";
-import { IoSunny } from "react-icons/io5";
 import {
   ConnectButton,
   useActiveAccount,
