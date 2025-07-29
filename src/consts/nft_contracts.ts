@@ -22,12 +22,4 @@ export const NFT_CONTRACTS: NftContract[] = [
       "/MAPC.gif",
     type: "ERC721",
   },
-  {
-    address: "0xdD7E7c7d8525F8C749BDD592656e9f970100d5Bd",
-    chain: monadTestnet,
-    title: "Monad Toads",
-    thumbnailUrl:
-      "/MT.gif",
-    type: "ERC1155",
-  },
 ];
