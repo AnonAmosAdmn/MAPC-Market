@@ -18,8 +18,8 @@ export default function Home() {
           <Image 
             src={`/mapc-logo.png`} 
             alt="MAPC Image"
-            width={500}
-            height={200}
+            width={1000}
+            height={350}
             className="rounded-lg"
           />
         </div>
