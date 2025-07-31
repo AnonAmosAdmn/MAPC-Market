@@ -20,6 +20,7 @@ export default function Home() {
             alt="MAPC Image"
             width={500}
             height={200}
+            className="rounded-lg"
           />
         </div>
         <Flex direction="column" gap="4">
