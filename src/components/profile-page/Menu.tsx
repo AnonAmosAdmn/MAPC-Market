@@ -53,7 +53,7 @@ export function ProfileMenu(props: Props) {
                     src={item.thumbnailUrl ?? ""} 
                     w="40px" 
                     rounded="8x"
-                    fallbackSrc="/default-thumbnail.png"
+                    fallbackSrc="/ap.gif"
                   />
                   <Box my="auto">
                     <Text>{item.title ?? "Unknown collection"}</Text>
