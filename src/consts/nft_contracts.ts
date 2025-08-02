@@ -15,11 +15,11 @@ export type NftContract = {
 
 export const NFT_CONTRACTS: NftContract[] = [
   {
-    address: "0xA4a3B33100ddb12B4563F01152Ee55b96886ef0D",
+    address: "0x94475C04c5413c9FE532675fB921fC8b9a24475b",
     chain: monadTestnet,
-    title: "Monad Ape Punks Club",
+    title: "Ape Punks Access Pass",
     thumbnailUrl:
-      "/MAPC.gif",
+      "/AC.gif",
     type: "ERC721",
   },
 ];
