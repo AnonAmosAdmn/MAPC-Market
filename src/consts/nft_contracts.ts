@@ -19,7 +19,7 @@ export const NFT_CONTRACTS: NftContract[] = [
     chain: monadTestnet,
     title: "Ape Punks Access Pass",
     thumbnailUrl:
-      "/AC.gif",
+      "/AP.gif",
     type: "ERC721",
   },
 ];
