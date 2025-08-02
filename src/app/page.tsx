@@ -16,7 +16,7 @@ export default function Home() {
       <Box mt="24px" m="auto">
         <div style={{ display: 'flex', justifyContent: 'center' }}>
           <Image 
-            src={`/mapc-logo.png`} 
+            src={`/ap-banner.gif`} 
             alt="MAPC Image"
             width={1000}
             height={350}
