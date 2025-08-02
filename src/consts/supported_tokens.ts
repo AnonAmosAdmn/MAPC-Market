@@ -26,9 +26,9 @@ export const SUPPORTED_TOKENS: SupportedTokens[] = [
     chain: monadTestnet,
     tokens: [
       {
-        tokenAddress: "0x53405e6Ed7FAd1B5A8Ae2d3d086C97b3B1F49393",
-        symbol: "MAPC Coin",
-        icon: "/default-thumbnail.png",
+        tokenAddress: "0xF58E363B23fC1BA88f8F75A6EAB57cF6ecaFae05",
+        symbol: "AP Coin",
+        icon: "/apcoin.gif",
       },
     ],
   },
