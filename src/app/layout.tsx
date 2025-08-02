@@ -5,8 +5,8 @@ import { AutoConnect } from "thirdweb/react";
 import { client } from "@/consts/client";
 
 export const metadata: Metadata = {
-	title: "MAPC Market",
-	description: "",
+	title: "AP Market",
+	description: "APE PUNKS MARKETPLACE",
 };
 
 export default function RootLayout({
