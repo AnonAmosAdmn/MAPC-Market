@@ -44,7 +44,7 @@ export function Navbar() {
             fontWeight="extrabold"
           >
             {/* Replace this with your own branding */}
-            MAPC Market
+            APE PUNKS MARKET
           </Heading>
         </Box>
         <Box display={{ lg: "block", base: "none" }}>
