@@ -27,7 +27,7 @@ export const NFT_CONTRACTS: NftContract[] = [
     chain: monadTestnet,
     title: ".NAD DOMAINS",
     thumbnailUrl:
-      "/AP.gif",
+      "/1.png",
     type: "ERC721",
   },
 ];
