@@ -22,4 +22,12 @@ export const NFT_CONTRACTS: NftContract[] = [
       "/AP.gif",
     type: "ERC721",
   },
+  {
+    address: "0x3019BF1dfB84E5b46Ca9D0eEC37dE08a59A41308",
+    chain: monadTestnet,
+    title: ".NAD DOMAINS",
+    thumbnailUrl:
+      "/AP.gif",
+    type: "ERC721",
+  },
 ];
